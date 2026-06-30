@@ -59,8 +59,21 @@ The resulting sample has 15 borrower-level observations across ARCC, BXSL, and O
 - [Combined valuation panel](data/processed/bdc_combined_valuation_panel_completed.csv)
 - [Public visibility coding file](data/raw_manual/public_signal_layer_v2.csv)
 - [Summary table](output/valuation_signal_summary.csv)
+- [RA research brief](docs/ra_research_brief.md)
+- [RA email blurb and CV bullet](docs/ra_email_blurb.md)
+- [Validation and summary code](code/01_validate_and_summarize_bdc_panel.py)
 
-The research note is the best entry point for understanding the project motivation, data construction, pilot findings, limitations, and future extension.
+The research note is the best entry point for understanding the project motivation, data construction, pilot findings, limitations, and future extension. The RA research brief is a shorter version intended for outreach or pre-doc/RA applications.
+
+## Reproducibility
+
+The repository includes a simple Python validation script. From the repository root, run:
+
+```bash
+python code/01_validate_and_summarize_bdc_panel.py
+```
+
+The script recalculates valuation ratios and markdown flags, checks that the stored variables match the calculations, merges the public-visibility coding layer, and regenerates the summary table, markdown-case table, signal crosstab, and figures.
 
 ## Data
 
@@ -144,6 +157,8 @@ This extension would move the project from a hand-coded pilot toward a broader e
 ## Repository structure
 
 ```text
+├── code/
+│   └── 01_validate_and_summarize_bdc_panel.py
 ├── data/
 │   ├── processed/
 │   │   ├── bdc_combined_valuation_panel_completed.csv
@@ -157,15 +172,23 @@ This extension would move the project from a hand-coded pilot toward a broader e
 │       └── source_tracker.xlsx
 ├── docs/
 │   ├── project_overview.md
+│   ├── public_visibility_methodology.md
 │   ├── public_visibility_research_note.md
 │   ├── public_visibility_research_note.docx
 │   ├── public_visibility_research_note.pdf
-│   └── public_visibility_methodology.md
-└── output/
-    ├── figures/
-    │   ├── q4_q1_fv_cost_scatter.png
-    │   └── qoq_markdown_signal_visibility.png
-    └── valuation_signal_summary.csv
+│   ├── ra_email_blurb.md
+│   └── ra_research_brief.md
+├── output/
+│   ├── figures/
+│   │   ├── q4_q1_fv_cost_scatter.png
+│   │   └── qoq_markdown_signal_visibility.png
+│   ├── tables/
+│   │   ├── loan_level_panel_summary.csv
+│   │   ├── public_signal_crosstab.csv
+│   │   └── qoq_markdown_cases.csv
+│   └── valuation_signal_summary.csv
+├── requirements.txt
+└── README.md
 ```
 
 ## Limitations
@@ -175,3 +198,7 @@ This is a small, hand-coded pilot sample. It is not designed for statistical inf
 ## Next-step research agenda
 
 A larger version can extend the sample to more BDCs, more reporting quarters, and multiple markdown thresholds. A scaled version could systematically collect public-source signals, add industry controls, and link valuation marks to subsequent borrower outcomes such as non-accrual status, restructurings, or bankruptcy filings. The broader research question is whether BDC valuation marks reveal borrower-level deterioration before it becomes visible in other public information channels.
+
+## Code sample
+
+Run `python code/01_validate_and_summarize_bdc_panel.py` from the repository root to validate the valuation variables and regenerate summary outputs.

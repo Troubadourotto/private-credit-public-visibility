@@ -1,0 +1,16 @@
+BDC,Ticker,borrower_clean_name,industry,q4_fv_to_cost,q1_fv_to_cost,qoq_fv_to_cost_change,qoq_markdown_event
+Ares Capital Corporation,ARCC,bamboo purchaser,"Provider of nursery, garden, and greenhouse products",0.945945945945946,0.475609756097561,-0.4703361898483849,1
+Ares Capital Corporation,ARCC,sig parent holdings,Independent insurance brokerage,1.0,1.0,0.0,0
+Ares Capital Corporation,ARCC,anaplan,Provider of cloud-based connected planning platforms,1.0,0.9827586206896552,-0.0172413793103447,0
+Ares Capital Corporation,ARCC,athenahealth group minerva holdco bcpe co-invest,Revenue cycle management provider to physician practices and acute care hospitals,1.0,1.0,0.0,0
+Ares Capital Corporation,ARCC,auctane,Provider of mailing and shipping solutions,1.0,1.0,0.0,0
+Blackstone Secured Lending Fund,BXSL,mode purchaser,Air Freight & Logistics,0.9126792570009034,0.8970765595796452,-0.0156026974212581,0
+Blackstone Secured Lending Fund,BXSL,windows acquisition holdings,Building Products,0.8250518188906003,0.7818230186026185,-0.0432288002879818,0
+Blackstone Secured Lending Fund,BXSL,aci group holdings,Health Care Providers & Services,0.8061580940029703,0.7074749360774178,-0.0986831579255524,1
+Blackstone Secured Lending Fund,BXSL,cambium learning group,Diversified Consumer Services,0.9760556492650498,0.97319922289822,-0.0028564263668297,0
+Blackstone Secured Lending Fund,BXSL,snoopy bidco,Health Care Providers & Services,0.963804307727234,0.9454775331185103,-0.0183267746087235,0
+Blue Owl Capital Corporation,OBDC,applied composites holdings,Aerospace and defense,0.639927264055327,0.6724026973334453,0.0324754332781183,0
+Blue Owl Capital Corporation,OBDC,national dentex labs barracuda dental,Healthcare providers and services,0.5173493243867968,0.4548517768366782,-0.0624975475501185,1
+Blue Owl Capital Corporation,OBDC,feradyne outdoors,Consumer products,0.697196787559466,0.6467210599007622,-0.0504757276587037,1
+Blue Owl Capital Corporation,OBDC,conair holdings,Consumer products,0.5587279276113504,0.7519650655021834,0.193237137890833,0
+Blue Owl Capital Corporation,OBDC,inovalon holdings,Healthcare technology,0.9811896056411596,0.9635663487906232,-0.0176232568505362,0

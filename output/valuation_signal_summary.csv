@@ -2,9 +2,9 @@ metric,value
 Total observations,15
 Q4 level markdown events,6
 Q1 level markdown events,8
-QoQ markdown events at -5pp threshold,4
-QoQ markdown events at -7.5pp threshold,2
-QoQ markdown events at -10pp threshold,1
+QoQ markdown events at -5.0% threshold,4
+QoQ markdown events at -7.5% threshold,2
+QoQ markdown events at -10.0% threshold,1
 Threshold-sensitive QoQ markdown cases within 1pp of -5pp cutoff,1
 "Public signal found, broad definition, any timing",10
 Public signal found and observable by Q1 valuation date,9
