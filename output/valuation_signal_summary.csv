@@ -1,0 +1,18 @@
+metric,value
+Total observations,15
+Q4 level markdown events,6
+Q1 level markdown events,8
+QoQ markdown events at -5pp threshold,4
+QoQ markdown events at -7.5pp threshold,2
+QoQ markdown events at -10pp threshold,1
+Threshold-sensitive QoQ markdown cases within 1pp of -5pp cutoff,1
+"Public signal found, broad definition, any timing",10
+Public signal found and observable by Q1 valuation date,9
+No clear public signal found,5
+Borrower-specific hard credit/distress signals,0
+Borrower-specific soft signals,2
+Industry/comparable weak signals,8
+QoQ markdown + hard borrower-specific signal,0
+QoQ markdown + soft borrower-specific signal,0
+QoQ markdown + pre-Q1 industry/comparable weak signal,3
+QoQ markdown + no clear public signal,1
